@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ol{
+	list-style:none;
+}
+.box{
+	width:800px;
+	margin: 30px auto;
+	overflow:hidden;
+	position:relative;
+}
+.img{
+	width:400%;
+}
+.img img{
+	width:800px;
+	height:auto;
+	float:left;
+}
+.l,.r{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	width:50px;
+	height:50px;
+	background:rgba(0,0,0,0.5);
+	font-size:40px;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	cursor:pointer;
+}
+.l{
+	left:10px;
+}
+.r{
+	right:10px;
+}
+ol{
+	position:absolute;
+	bottom:40px;
+	right:15px;
+}
+ol li{
+	width:30px;
+	height:30px;
+	background:#00f;
+	border-radius:50%;
+	float:left;
+	margin-right:20px;
+}
+ol li.show{
+	background:#fff;
+}
